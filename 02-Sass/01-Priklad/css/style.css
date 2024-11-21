@@ -1,0 +1,48 @@
+.header {
+  border: 5px solid #ff4400;
+  padding: 30px;
+}
+.header__link {
+  background-color: #ff4400;
+  color: white;
+  padding: 30px;
+}
+.header__menu {
+  list-style: none;
+  padding: 0;
+}
+.header__title {
+  color: #ff4400;
+  margin: 0;
+}
+
+button {
+  background-color: #ff4400;
+  padding: 15px;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  background-color: orange;
+  color: white;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 700px) {
+  footer {
+    background-color: blue;
+  }
+}
+@media (min-width: 900px) {
+  footer {
+    background-color: yellowgreen;
+  }
+}/*# sourceMappingURL=style.css.map */

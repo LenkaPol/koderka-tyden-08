@@ -1,0 +1,47 @@
+$cervena: #ff4400;
+$spacer: 30px;
+
+.header {
+    border: 5px solid $cervena;
+    padding: $spacer;
+
+    &__link {
+        background-color: $cervena;
+        color: white;
+        padding: $spacer;
+    }
+    &__menu {
+        list-style: none;
+        padding: 0;
+    }
+    &__title {
+        color: $cervena;
+        margin: 0;
+}}
+button {
+    background-color: $cervena;
+    padding: $spacer / 2;
+}
+a {
+    color: orange;
+    &:hover {
+        background-color: orange;
+        color: white;
+    }
+}
+footer {
+    margin-top: $spacer;
+    padding: $spacer /2;
+    background-color: black;
+    color: white;
+}
+@media (min-width: 700px) {
+    footer {
+        background-color: blue;
+    }
+}
+@media (min-width: 900px) {
+    footer {
+        background-color: yellowgreen;
+    }
+}
