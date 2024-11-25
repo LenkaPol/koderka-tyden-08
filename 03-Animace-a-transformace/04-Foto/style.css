@@ -7,4 +7,31 @@ body {
 }
 
 /* ---------------- */
-
+.foto__image {
+    width: 100%;
+    display: block;
+    transition: transform 0.5s;
+}
+.foto {
+    max-width: 400px;
+    overflow: hidden;
+}
+.foto__description {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.5s;
+}
+.foto__description p {
+    margin: 0;
+}
+.foto__description a {
+    color: white;
+}
+.foto:hover .foto__description {
+    transform: translateY(-100%);
+}
+.foto:hover .foto__image {
+    transform: scale(1.1);
+}

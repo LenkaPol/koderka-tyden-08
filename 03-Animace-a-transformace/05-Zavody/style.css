@@ -29,3 +29,21 @@ body {
 .raketka1 { top: 150px; }
 .raketka2 { top: 330px; }
 .raketka3 { top: 510px; }
+
+@keyframes let {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(845px);
+	}
+}
+.raketka1 {
+	animation: let 8s forwards;
+}
+.raketka2 {
+	animation: let 3s 1s forwards;
+}
+.raketka3 {
+	animation: let 6s forwards;
+}
